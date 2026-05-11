@@ -1,0 +1,9 @@
+{
+  "name": "html-effectiveness",
+  "description": "Generate rich, self-contained HTML documents as alternatives to markdown",
+  "version": "0.1.0",
+  "author": { "name": "gagoar" },
+  "license": "MIT",
+  "keywords": ["html", "documentation", "design-system", "slide-deck", "kanban"],
+  "skills": ["./skills/html-doc"]
+}

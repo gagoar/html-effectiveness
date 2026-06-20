@@ -6,8 +6,18 @@ The skill embeds the exact CSS design language ("Birchline") from the showcase: 
 
 ## Install
 
+Via the [gago-plugins](https://github.com/gagoar/gago-plugins) marketplace:
+
 ```
-/plugin marketplace add gagoar/html-effectiveness
+/plugin marketplace add github:gagoar/gago-plugins
+/plugin install html-effectiveness@gago-plugins
+/reload-plugins
+```
+
+Or standalone:
+
+```
+/plugin marketplace add github:gagoar/html-effectiveness
 /plugin install html-effectiveness@html-effectiveness
 /reload-plugins
 ```

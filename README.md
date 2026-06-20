@@ -2,23 +2,25 @@
 
 A Claude Code skill for generating rich, self-contained HTML documents — beautiful alternatives to markdown, inspired by [thariqs.github.io/html-effectiveness](https://thariqs.github.io/html-effectiveness/).
 
+**Webpage:** [gagoar.github.io/html-effectiveness](https://gagoar.github.io/html-effectiveness)
+
 The skill embeds the exact CSS design language ("Birchline") from the showcase: serif headings, an ivory/clay/slate palette, 1.5px borders, and scroll-snap slide decks — all in a single `.html` file with zero external dependencies.
 
 ## Install
 
-Via the [gago-plugins](https://github.com/gagoar/gago-plugins) marketplace:
+Via the [gago-plugins](https://gagoar.github.io/gago-plugins) marketplace:
 
 ```
-/plugin marketplace add github:gagoar/gago-plugins
-/plugin install html-effectiveness@gago-plugins
+/plugin marketplace add gagoar/gago-plugins
+/plugin install html@gago-plugins
 /reload-plugins
 ```
 
 Or standalone:
 
 ```
-/plugin marketplace add github:gagoar/html-effectiveness
-/plugin install html-effectiveness@html-effectiveness
+/plugin marketplace add gagoar/html-effectiveness
+/plugin install html@html
 /reload-plugins
 ```
 
@@ -27,11 +29,11 @@ Or standalone:
 Invoke the skill in any Claude Code session:
 
 ```
-/html-effectiveness:html-doc Make me a one-page status report for week 18
-/html-effectiveness:html-doc Code review for the auth middleware PR
-/html-effectiveness:html-doc Slide deck: why we're moving to microservices
-/html-effectiveness:html-doc Kanban board for the Q3 roadmap
-/html-effectiveness:html-doc Milestone timeline for the v2 launch
+/html:doc Make me a one-page status report for week 18
+/html:doc Code review for the auth middleware PR
+/html:doc Slide deck: why we're moving to microservices
+/html:doc Kanban board for the Q3 roadmap
+/html:doc Milestone timeline for the v2 launch
 ```
 
 ## Document types

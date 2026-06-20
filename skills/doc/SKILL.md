@@ -1,5 +1,5 @@
 ---
-name: html-doc
+name: doc
 description: Generate rich, self-contained HTML documents — reports, slide decks, code reviews, design systems, kanban boards, and more — using the exact CSS design language from https://thariqs.github.io/html-effectiveness/
 ---
 

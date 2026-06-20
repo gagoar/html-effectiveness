@@ -1,6 +1,6 @@
 ---
 name: doc
-description: Generate rich, self-contained HTML documents — reports, slide decks, code reviews, design systems, kanban boards, and more — using the exact CSS design language from https://thariqs.github.io/html-effectiveness/
+description: "/html:doc — Generate rich, self-contained HTML documents (reports, slide decks, code reviews, kanban boards, timelines) using the Birchline design system. Zero external dependencies."
 ---
 
 Produce a single, self-contained `.html` file with all CSS and JS inlined. Zero external dependencies (CDN Google Fonts `@import` is the only exception). Must open correctly with `open file.html`, no server.

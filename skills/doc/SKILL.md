@@ -475,3 +475,4 @@ details.deep-dive[open] summary { color: var(--clay); }
 6. **1.5px borders** — use `var(--border)` = `1.5px solid var(--gray-300)` everywhere. Never plain `1px`.
 7. **Max-width container** — `.page { max-width: 920px; margin: 0 auto; }`.
 8. **Filename** — suggest kebab-case: `incident-2025-04.html`, `debounce-approaches.html`.
+9. **Prose gate before rendering** — visual polish here is not a substitute for sentence-level discipline. If the `iceberg` skill is available, run `iceberg:score` on the document's prose (headings, paragraphs, body copy — not code/data) before writing the final HTML; below a B grade, run `iceberg:edit` and re-score. Do this on the source content, before it's laid out — editing prose embedded in finished HTML is error-prone and easy to skip. A document this skill renders will otherwise ship its best-looking, least-edited prose.

@@ -1,18 +1,17 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "html",
-  "id": "html",
   "owner": { "name": "gagoar" },
   "metadata": {
     "description": "Skill for generating rich, self-contained HTML documents — reports, slide decks, code reviews, design systems, kanban boards — in the style of thariqs.github.io/html-effectiveness",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   "plugins": [
     {
       "name": "html",
       "source": "./",
       "description": "Generate rich, self-contained HTML documents as alternatives to markdown",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "author": { "name": "gagoar" },
       "keywords": ["html", "documentation", "design-system", "slide-deck", "kanban", "report"],
       "category": "workflow"

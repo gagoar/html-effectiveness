@@ -1,9 +1,16 @@
 {
   "name": "html",
+  "displayName": "html",
   "description": "Generate rich, self-contained HTML documents as alternatives to markdown",
   "version": "0.2.3",
   "icon": "./.claude-plugin/icon.png",
   "author": { "name": "gagoar" },
+  "homepage": "https://gagoar.github.io/html-effectiveness/",
+  "documentationUrl": "https://github.com/gagoar/html-effectiveness#readme",
+  "supportUrl": "https://github.com/gagoar/html-effectiveness/issues",
+  "privacyPolicyUrl": "https://github.com/gagoar/html-effectiveness#privacy",
+  "termsOfServiceUrl": "https://github.com/gagoar/html-effectiveness#terms",
+  "repository": "https://github.com/gagoar/html-effectiveness",
   "license": "MIT",
   "keywords": ["html", "documentation", "design-system", "slide-deck", "kanban"],
   "skills": ["./skills/doc"]

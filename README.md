@@ -1,6 +1,13 @@
 # html-effectiveness
 
+<img src="docs/assets/icon.svg" alt="" width="72" align="right">
+
 A Claude Code skill for generating rich, self-contained HTML documents — beautiful alternatives to markdown, inspired by [thariqs.github.io/html-effectiveness](https://thariqs.github.io/html-effectiveness/).
+
+[![Release](https://img.shields.io/github/v/release/gagoar/html-effectiveness?color=D97757)](https://github.com/gagoar/html-effectiveness/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-788C5D)](LICENSE)
+[![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757)](https://gagoar.github.io/html-effectiveness/)
+[![Stars](https://img.shields.io/github/stars/gagoar/html-effectiveness?style=flat&color=D1CFC5)](https://github.com/gagoar/html-effectiveness/stargazers)
 
 **Webpage:** [gagoar.github.io/html-effectiveness](https://gagoar.github.io/html-effectiveness)
 
@@ -55,6 +62,14 @@ All documents use the "Birchline" design tokens:
 - **Palette**: ivory `#FAF9F5`, clay `#D97757`, slate `#141413`, oat `#E3DACC`, olive `#788C5D`, rust `#B04A3F`
 - **Typography**: `ui-serif / Georgia` headings, `system-ui` body, `ui-monospace` code
 - **Borders**: 1.5px, `border-collapse: separate` with `border-radius` + `overflow: hidden`
+
+## Privacy
+
+This plugin collects nothing. It is a skill: text that Claude reads as part of your session. It runs no code, makes no network calls and keeps no state. The HTML documents it asks Claude to write stay on your disk. Claude Code handles your session under Anthropic's own terms and privacy policy, which this plugin does not change.
+
+## Terms
+
+The plugin is provided under the MIT license (see [LICENSE](./LICENSE)), as is, without warranty. For help or to report a problem, open an issue at [github.com/gagoar/html-effectiveness/issues](https://github.com/gagoar/html-effectiveness/issues).
 
 ## License
 
